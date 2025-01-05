@@ -1,19 +1,4 @@
 Geography,Sex,Fiscal year,"Rate (per 100,000)",Counts,Population
-Canada,Both sexes,2000-2001,731.0,100690.0,13779180.0
-Canada,Both sexes,2001-2002,687.0,97115.0,14138230.0
-Canada,Both sexes,2002-2003,632.0,91705.0,14510750.0
-Canada,Both sexes,2003-2004,613.0,91280.0,14883465.0
-Canada,Both sexes,2004-2005,587.0,89510.0,15241370.0
-Canada,Both sexes,2005-2006,564.0,87795.0,15579915.0
-Canada,Both sexes,2006-2007,550.0,86860.0,15797225.0
-Canada,Both sexes,2007-2008,539.0,86365.0,16023230.0
-Canada,Both sexes,2008-2009,553.0,91525.0,16551600.0
-Canada,Both sexes,2009-2010,543.0,91460.0,16853075.0
-Canada,Both sexes,2010-2011,529.0,90925.0,17192945.0
-Canada,Both sexes,2011-2012,525.0,91910.0,17505415.0
-Canada,Both sexes,2012-2013,521.0,92855.0,17813710.0
-Canada,Both sexes,2013-2014,535.0,96785.0,18100625.0
-Canada,Both sexes,2014-2015,552.0,101280.0,18351415.0
 Canada,Both sexes,2015-2016,544.0,101185.0,18610495.0
 Canada,Both sexes,2016-2017,538.0,101655.0,18898575.0
 Canada,Both sexes,2017-2018,557.0,106765.0,19181935.0
@@ -22,21 +7,6 @@ Canada,Both sexes,2019-2020,560.0,111030.0,19822955.0
 Canada,Both sexes,2020-2021*,528.0,105555.0,19984460.0
 Canada,Both sexes,2021-2022*,573.0,114070.0,19893240.0
 Canada,Both sexes,2022-2023*,601.0,122025.0,20300185.0
-Newfoundland and Labrador,Both sexes,2000-2001,,0.0,0.0
-Newfoundland and Labrador,Both sexes,2001-2002,,0.0,0.0
-Newfoundland and Labrador,Both sexes,2002-2003,,0.0,0.0
-Newfoundland and Labrador,Both sexes,2003-2004,,0.0,0.0
-Newfoundland and Labrador,Both sexes,2004-2005,,0.0,0.0
-Newfoundland and Labrador,Both sexes,2005-2006,,0.0,0.0
-Newfoundland and Labrador,Both sexes,2006-2007,,0.0,0.0
-Newfoundland and Labrador,Both sexes,2007-2008,,0.0,0.0
-Newfoundland and Labrador,Both sexes,2008-2009,834.0,2310.0,276825.0
-Newfoundland and Labrador,Both sexes,2009-2010,783.0,2200.0,280925.0
-Newfoundland and Labrador,Both sexes,2010-2011,497.0,1415.0,284905.0
-Newfoundland and Labrador,Both sexes,2011-2012,485.0,1405.0,289415.0
-Newfoundland and Labrador,Both sexes,2012-2013,457.0,1340.0,293170.0
-Newfoundland and Labrador,Both sexes,2013-2014,447.0,1325.0,296320.0
-Newfoundland and Labrador,Both sexes,2014-2015,508.0,1515.0,298485.0
 Newfoundland and Labrador,Both sexes,2015-2016,475.0,1425.0,300105.0
 Newfoundland and Labrador,Both sexes,2016-2017,473.0,1435.0,303300.0
 Newfoundland and Labrador,Both sexes,2017-2018,487.0,1485.0,304780.0
@@ -45,21 +15,6 @@ Newfoundland and Labrador,Both sexes,2019-2020,447.0,1380.0,308420.0
 Newfoundland and Labrador,Both sexes,2020-2021*,473.0,1470.0,310860.0
 Newfoundland and Labrador,Both sexes,2021-2022*,442.0,1390.0,314445.0
 Newfoundland and Labrador,Both sexes,2022-2023*,438.0,1395.0,318140.0
-Prince Edward Island,Both sexes,2000-2001,767.0,485.0,63205.0
-Prince Edward Island,Both sexes,2001-2002,794.0,510.0,64220.0
-Prince Edward Island,Both sexes,2002-2003,734.0,480.0,65415.0
-Prince Edward Island,Both sexes,2003-2004,701.0,470.0,67040.0
-Prince Edward Island,Both sexes,2004-2005,622.0,425.0,68305.0
-Prince Edward Island,Both sexes,2005-2006,577.0,400.0,69350.0
-Prince Edward Island,Both sexes,2006-2007,610.0,430.0,70520.0
-Prince Edward Island,Both sexes,2007-2008,542.0,390.0,71960.0
-Prince Edward Island,Both sexes,2008-2009,542.0,400.0,73825.0
-Prince Edward Island,Both sexes,2009-2010,571.0,430.0,75275.0
-Prince Edward Island,Both sexes,2010-2011,573.0,440.0,76840.0
-Prince Edward Island,Both sexes,2011-2012,574.0,450.0,78335.0
-Prince Edward Island,Both sexes,2012-2013,567.0,450.0,79425.0
-Prince Edward Island,Both sexes,2013-2014,505.0,405.0,80240.0
-Prince Edward Island,Both sexes,2014-2015,544.0,440.0,80875.0
 Prince Edward Island,Both sexes,2015-2016,509.0,415.0,81500.0
 Prince Edward Island,Both sexes,2016-2017,539.0,445.0,82525.0
 Prince Edward Island,Both sexes,2017-2018,525.0,440.0,83870.0
@@ -68,21 +23,6 @@ Prince Edward Island,Both sexes,2019-2020,547.0,475.0,86800.0
 Prince Edward Island,Both sexes,2020-2021*,484.0,425.0,87855.0
 Prince Edward Island,Both sexes,2021-2022*,463.0,415.0,89620.0
 Prince Edward Island,Both sexes,2022-2023*,535.0,490.0,91520.0
-Nova Scotia,Both sexes,2000-2001,690.0,3045.0,441345.0
-Nova Scotia,Both sexes,2001-2002,658.0,2965.0,450700.0
-Nova Scotia,Both sexes,2002-2003,633.0,2915.0,460455.0
-Nova Scotia,Both sexes,2003-2004,608.0,2860.0,470075.0
-Nova Scotia,Both sexes,2004-2005,554.0,2655.0,479560.0
-Nova Scotia,Both sexes,2005-2006,533.0,2600.0,487610.0
-Nova Scotia,Both sexes,2006-2007,522.0,2585.0,495405.0
-Nova Scotia,Both sexes,2007-2008,524.0,2630.0,502050.0
-Nova Scotia,Both sexes,2008-2009,531.0,2705.0,509610.0
-Nova Scotia,Both sexes,2009-2010,533.0,2755.0,516870.0
-Nova Scotia,Both sexes,2010-2011,502.0,2635.0,525100.0
-Nova Scotia,Both sexes,2011-2012,491.0,2615.0,532865.0
-Nova Scotia,Both sexes,2012-2013,463.0,2500.0,539660.0
-Nova Scotia,Both sexes,2013-2014,469.0,2565.0,546910.0
-Nova Scotia,Both sexes,2014-2015,449.0,2485.0,552890.0
 Nova Scotia,Both sexes,2015-2016,476.0,2660.0,558830.0
 Nova Scotia,Both sexes,2016-2017,475.0,2685.0,565160.0
 Nova Scotia,Both sexes,2017-2018,485.0,2775.0,571990.0
@@ -91,21 +31,6 @@ Nova Scotia,Both sexes,2019-2020,510.0,3000.0,588725.0
 Nova Scotia,Both sexes,2020-2021*,502.0,3000.0,597865.0
 Nova Scotia,Both sexes,2021-2022*,516.0,3150.0,610450.0
 Nova Scotia,Both sexes,2022-2023*,556.0,3470.0,624350.0
-New Brunswick,Both sexes,2000-2001,797.0,2780.0,348845.0
-New Brunswick,Both sexes,2001-2002,733.0,2600.0,354760.0
-New Brunswick,Both sexes,2002-2003,688.0,2485.0,361385.0
-New Brunswick,Both sexes,2003-2004,636.0,2340.0,368105.0
-New Brunswick,Both sexes,2004-2005,606.0,2270.0,374520.0
-New Brunswick,Both sexes,2005-2006,539.0,2050.0,380665.0
-New Brunswick,Both sexes,2006-2007,570.0,2195.0,385200.0
-New Brunswick,Both sexes,2007-2008,539.0,2105.0,390420.0
-New Brunswick,Both sexes,2008-2009,559.0,2215.0,396045.0
-New Brunswick,Both sexes,2009-2010,564.0,2240.0,397170.0
-New Brunswick,Both sexes,2010-2011,558.0,2250.0,403265.0
-New Brunswick,Both sexes,2011-2012,513.0,2105.0,410050.0
-New Brunswick,Both sexes,2012-2013,526.0,2180.0,414640.0
-New Brunswick,Both sexes,2013-2014,498.0,2085.0,418520.0
-New Brunswick,Both sexes,2014-2015,561.0,2375.0,423625.0
 New Brunswick,Both sexes,2015-2016,542.0,2330.0,429895.0
 New Brunswick,Both sexes,2016-2017,541.0,2360.0,436170.0
 New Brunswick,Both sexes,2017-2018,557.0,2455.0,440585.0
@@ -114,21 +39,6 @@ New Brunswick,Both sexes,2019-2020,524.0,2355.0,449845.0
 New Brunswick,Both sexes,2020-2021*,513.0,2335.0,454995.0
 New Brunswick,Both sexes,2021-2022*,,0.0,0.0
 New Brunswick,Both sexes,2022-2023*,,0.0,0.0
-Quebec,Both sexes,2000-2001,659.0,22730.0,3451095.0
-Quebec,Both sexes,2001-2002,621.0,21850.0,3519590.0
-Quebec,Both sexes,2002-2003,574.0,20600.0,3587190.0
-Quebec,Both sexes,2003-2004,572.0,20895.0,3655740.0
-Quebec,Both sexes,2004-2005,554.0,20645.0,3723410.0
-Quebec,Both sexes,2005-2006,521.0,19685.0,3780895.0
-Quebec,Both sexes,2006-2007,492.0,18880.0,3835230.0
-Quebec,Both sexes,2007-2008,498.0,19350.0,3882140.0
-Quebec,Both sexes,2008-2009,517.0,20315.0,3926865.0
-Quebec,Both sexes,2009-2010,511.0,20310.0,3974130.0
-Quebec,Both sexes,2010-2011,499.0,20065.0,4020445.0
-Quebec,Both sexes,2011-2012,510.0,20735.0,4062040.0
-Quebec,Both sexes,2012-2013,509.0,20900.0,4102530.0
-Quebec,Both sexes,2013-2014,525.0,21735.0,4141760.0
-Quebec,Both sexes,2014-2015,535.0,22375.0,4184455.0
 Quebec,Both sexes,2015-2016,546.0,23100.0,4227290.0
 Quebec,Both sexes,2016-2017,553.0,23620.0,4273325.0
 Quebec,Both sexes,2017-2018,557.0,24050.0,4321255.0
@@ -137,21 +47,6 @@ Quebec,Both sexes,2019-2020,558.0,24720.0,4429245.0
 Quebec,Both sexes,2020-2021*,507.0,22720.0,4483410.0
 Quebec,Both sexes,2021-2022*,592.0,26865.0,4538595.0
 Quebec,Both sexes,2022-2023*,621.0,28550.0,4597900.0
-Ontario,Both sexes,2000-2001,746.0,40355.0,5408570.0
-Ontario,Both sexes,2001-2002,699.0,38975.0,5577515.0
-Ontario,Both sexes,2002-2003,630.0,36265.0,5757980.0
-Ontario,Both sexes,2003-2004,581.0,34495.0,5938500.0
-Ontario,Both sexes,2004-2005,554.0,33865.0,6112085.0
-Ontario,Both sexes,2005-2006,532.0,33380.0,6273110.0
-Ontario,Both sexes,2006-2007,530.0,33540.0,6331415.0
-Ontario,Both sexes,2007-2008,517.0,33050.0,6394270.0
-Ontario,Both sexes,2008-2009,528.0,34205.0,6481170.0
-Ontario,Both sexes,2009-2010,512.0,33920.0,6622910.0
-Ontario,Both sexes,2010-2011,505.0,34175.0,6767020.0
-Ontario,Both sexes,2011-2012,497.0,34325.0,6906380.0
-Ontario,Both sexes,2012-2013,495.0,34865.0,7043475.0
-Ontario,Both sexes,2013-2014,515.0,36930.0,7169730.0
-Ontario,Both sexes,2014-2015,540.0,39135.0,7252255.0
 Ontario,Both sexes,2015-2016,514.0,37785.0,7354745.0
 Ontario,Both sexes,2016-2017,506.0,37800.0,7473715.0
 Ontario,Both sexes,2017-2018,536.0,40685.0,7589675.0
@@ -160,21 +55,6 @@ Ontario,Both sexes,2019-2020,535.0,42015.0,7855945.0
 Ontario,Both sexes,2020-2021*,508.0,39760.0,7826875.0
 Ontario,Both sexes,2021-2022*,543.0,43250.0,7964355.0
 Ontario,Both sexes,2022-2023*,573.0,46530.0,8125725.0
-Manitoba,Both sexes,2000-2001,982.0,4970.0,506280.0
-Manitoba,Both sexes,2001-2002,938.0,4825.0,514205.0
-Manitoba,Both sexes,2002-2003,850.0,4435.0,522045.0
-Manitoba,Both sexes,2003-2004,816.0,4330.0,530720.0
-Manitoba,Both sexes,2004-2005,768.0,4140.0,539055.0
-Manitoba,Both sexes,2005-2006,689.0,3760.0,545600.0
-Manitoba,Both sexes,2006-2007,643.0,3545.0,551485.0
-Manitoba,Both sexes,2007-2008,668.0,3725.0,557705.0
-Manitoba,Both sexes,2008-2009,652.0,3685.0,565215.0
-Manitoba,Both sexes,2009-2010,651.0,3735.0,573310.0
-Manitoba,Both sexes,2010-2011,653.0,3805.0,582310.0
-Manitoba,Both sexes,2011-2012,635.0,3755.0,591390.0
-Manitoba,Both sexes,2012-2013,655.0,3930.0,599580.0
-Manitoba,Both sexes,2013-2014,662.0,4020.0,606920.0
-Manitoba,Both sexes,2014-2015,677.0,4160.0,614775.0
 Manitoba,Both sexes,2015-2016,647.0,4020.0,621205.0
 Manitoba,Both sexes,2016-2017,589.0,3700.0,628250.0
 Manitoba,Both sexes,2017-2018,624.0,3970.0,635880.0
@@ -183,21 +63,6 @@ Manitoba,Both sexes,2019-2020,630.0,4100.0,650585.0
 Manitoba,Both sexes,2020-2021*,635.0,4175.0,657700.0
 Manitoba,Both sexes,2021-2022*,665.0,4425.0,665770.0
 Manitoba,Both sexes,2022-2023*,699.0,4755.0,680720.0
-Saskatchewan,Both sexes,2000-2001,1054.0,4650.0,441120.0
-Saskatchewan,Both sexes,2001-2002,1050.0,4690.0,446520.0
-Saskatchewan,Both sexes,2002-2003,986.0,4465.0,452675.0
-Saskatchewan,Both sexes,2003-2004,899.0,4090.0,454835.0
-Saskatchewan,Both sexes,2004-2005,841.0,3875.0,460965.0
-Saskatchewan,Both sexes,2005-2006,821.0,3825.0,465925.0
-Saskatchewan,Both sexes,2006-2007,846.0,3945.0,466195.0
-Saskatchewan,Both sexes,2007-2008,779.0,3690.0,473950.0
-Saskatchewan,Both sexes,2008-2009,744.0,3585.0,481620.0
-Saskatchewan,Both sexes,2009-2010,672.0,3255.0,484445.0
-Saskatchewan,Both sexes,2010-2011,691.0,3400.0,492350.0
-Saskatchewan,Both sexes,2011-2012,638.0,3195.0,500430.0
-Saskatchewan,Both sexes,2012-2013,616.0,3115.0,505490.0
-Saskatchewan,Both sexes,2013-2014,604.0,3105.0,513870.0
-Saskatchewan,Both sexes,2014-2015,614.0,3215.0,523675.0
 Saskatchewan,Both sexes,2015-2016,644.0,3380.0,525235.0
 Saskatchewan,Both sexes,2016-2017,608.0,3250.0,534280.0
 Saskatchewan,Both sexes,2017-2018,599.0,3255.0,543580.0
@@ -206,21 +71,6 @@ Saskatchewan,Both sexes,2019-2020,574.0,3200.0,557975.0
 Saskatchewan,Both sexes,2020-2021*,500.0,2840.0,567645.0
 Saskatchewan,Both sexes,2021-2022*,539.0,3120.0,578600.0
 Saskatchewan,Both sexes,2022-2023*,557.0,3260.0,585735.0
-Alberta,Both sexes,2000-2001,748.0,9265.0,1239095.0
-Alberta,Both sexes,2001-2002,707.0,9070.0,1282970.0
-Alberta,Both sexes,2002-2003,640.0,8490.0,1325995.0
-Alberta,Both sexes,2003-2004,627.0,8565.0,1365235.0
-Alberta,Both sexes,2004-2005,604.0,8455.0,1400260.0
-Alberta,Both sexes,2005-2006,597.0,8580.0,1438090.0
-Alberta,Both sexes,2006-2007,538.0,7980.0,1483525.0
-Alberta,Both sexes,2007-2008,522.0,7960.0,1525885.0
-Alberta,Both sexes,2008-2009,514.0,8075.0,1569615.0
-Alberta,Both sexes,2009-2010,528.0,8520.0,1612715.0
-Alberta,Both sexes,2010-2011,519.0,8625.0,1662810.0
-Alberta,Both sexes,2011-2012,519.0,8905.0,1715105.0
-Alberta,Both sexes,2012-2013,511.0,9090.0,1779375.0
-Alberta,Both sexes,2013-2014,495.0,9130.0,1843745.0
-Alberta,Both sexes,2014-2015,506.0,9635.0,1904640.0
 Alberta,Both sexes,2015-2016,513.0,10035.0,1956990.0
 Alberta,Both sexes,2016-2017,504.0,10105.0,2004840.0
 Alberta,Both sexes,2017-2018,512.0,10530.0,2055340.0
@@ -229,21 +79,6 @@ Alberta,Both sexes,2019-2020,542.0,11780.0,2173115.0
 Alberta,Both sexes,2020-2021*,483.0,10755.0,2226905.0
 Alberta,Both sexes,2021-2022*,515.0,11820.0,2294245.0
 Alberta,Both sexes,2022-2023*,584.0,13920.0,2383450.0
-British Columbia,Both sexes,2000-2001,661.0,12340.0,1865610.0
-British Columbia,Both sexes,2001-2002,604.0,11555.0,1913365.0
-British Columbia,Both sexes,2002-2003,586.0,11505.0,1962565.0
-British Columbia,Both sexes,2003-2004,652.0,13165.0,2017735.0
-British Columbia,Both sexes,2004-2005,635.0,13115.0,2066940.0
-British Columbia,Both sexes,2005-2006,634.0,13410.0,2114385.0
-British Columbia,Both sexes,2006-2007,634.0,13645.0,2153395.0
-British Columbia,Both sexes,2007-2008,607.0,13355.0,2199345.0
-British Columbia,Both sexes,2008-2009,621.0,13940.0,2244325.0
-British Columbia,Both sexes,2009-2010,612.0,13995.0,2287775.0
-British Columbia,Both sexes,2010-2011,596.0,13920.0,2333685.0
-British Columbia,Both sexes,2011-2012,600.0,14240.0,2373715.0
-British Columbia,Both sexes,2012-2013,594.0,14305.0,2409380.0
-British Columbia,Both sexes,2013-2014,629.0,15315.0,2435205.0
-British Columbia,Both sexes,2014-2015,636.0,15710.0,2468235.0
 British Columbia,Both sexes,2015-2016,630.0,15795.0,2506220.0
 British Columbia,Both sexes,2016-2017,629.0,16020.0,2547600.0
 British Columbia,Both sexes,2017-2018,653.0,16885.0,2584840.0
@@ -252,21 +87,6 @@ British Columbia,Both sexes,2019-2020,664.0,17745.0,2670430.0
 British Columbia,Both sexes,2020-2021*,655.0,17815.0,2718140.0
 British Columbia,Both sexes,2021-2022*,695.0,19360.0,2783970.0
 British Columbia,Both sexes,2022-2023*,681.0,19465.0,2858345.0
-Yukon Territory,Both sexes,2000-2001,,0.0,0.0
-Yukon Territory,Both sexes,2001-2002,,0.0,0.0
-Yukon Territory,Both sexes,2002-2003,,0.0,0.0
-Yukon Territory,Both sexes,2003-2004,,0.0,0.0
-Yukon Territory,Both sexes,2004-2005,,0.0,0.0
-Yukon Territory,Both sexes,2005-2006,,0.0,0.0
-Yukon Territory,Both sexes,2006-2007,,0.0,0.0
-Yukon Territory,Both sexes,2007-2008,,0.0,0.0
-Yukon Territory,Both sexes,2008-2009,,0.0,0.0
-Yukon Territory,Both sexes,2009-2010,,0.0,0.0
-Yukon Territory,Both sexes,2010-2011,516.0,90.0,17450.0
-Yukon Territory,Both sexes,2011-2012,503.0,90.0,17875.0
-Yukon Territory,Both sexes,2012-2013,466.0,85.0,18255.0
-Yukon Territory,Both sexes,2013-2014,487.0,90.0,18490.0
-Yukon Territory,Both sexes,2014-2015,695.0,130.0,18695.0
 Yukon Territory,Both sexes,2015-2016,552.0,105.0,19015.0
 Yukon Territory,Both sexes,2016-2017,619.0,120.0,19380.0
 Yukon Territory,Both sexes,2017-2018,428.0,85.0,19865.0
@@ -275,21 +95,6 @@ Yukon Territory,Both sexes,2019-2020,604.0,125.0,20680.0
 Yukon Territory,Both sexes,2020-2021*,645.0,135.0,20925.0
 Yukon Territory,Both sexes,2021-2022*,628.0,135.0,21495.0
 Yukon Territory,Both sexes,2022-2023*,569.0,125.0,21950.0
-Northwest Territories,Both sexes,2000-2001,499.0,70.0,14035.0
-Northwest Territories,Both sexes,2001-2002,522.0,75.0,14380.0
-Northwest Territories,Both sexes,2002-2003,432.0,65.0,15055.0
-Northwest Territories,Both sexes,2003-2004,420.0,65.0,15475.0
-Northwest Territories,Both sexes,2004-2005,430.0,70.0,16280.0
-Northwest Territories,Both sexes,2005-2006,389.0,65.0,16700.0
-Northwest Territories,Both sexes,2006-2007,385.0,65.0,16895.0
-Northwest Territories,Both sexes,2007-2008,344.0,60.0,17460.0
-Northwest Territories,Both sexes,2008-2009,361.0,65.0,18025.0
-Northwest Territories,Both sexes,2009-2010,270.0,50.0,18530.0
-Northwest Territories,Both sexes,2010-2011,376.0,65.0,17275.0
-Northwest Territories,Both sexes,2011-2012,280.0,50.0,17840.0
-Northwest Territories,Both sexes,2012-2013,325.0,60.0,18455.0
-Northwest Territories,Both sexes,2013-2014,240.0,45.0,18725.0
-Northwest Territories,Both sexes,2014-2015,245.0,45.0,18375.0
 Northwest Territories,Both sexes,2015-2016,347.0,65.0,18745.0
 Northwest Territories,Both sexes,2016-2017,342.0,65.0,18985.0
 Northwest Territories,Both sexes,2017-2018,478.0,90.0,18845.0
@@ -298,21 +103,6 @@ Northwest Territories,Both sexes,2019-2020,437.0,85.0,19460.0
 Northwest Territories,Both sexes,2020-2021*,360.0,70.0,19445.0
 Northwest Territories,Both sexes,2021-2022*,433.0,85.0,19610.0
 Northwest Territories,Both sexes,2022-2023*,,0.0,0.0
-Nunavut,Both sexes,2000-2001,,0.0,0.0
-Nunavut,Both sexes,2001-2002,,0.0,0.0
-Nunavut,Both sexes,2002-2003,,0.0,0.0
-Nunavut,Both sexes,2003-2004,,0.0,0.0
-Nunavut,Both sexes,2004-2005,,0.0,0.0
-Nunavut,Both sexes,2005-2006,593.0,45.0,7590.0
-Nunavut,Both sexes,2006-2007,628.0,50.0,7965.0
-Nunavut,Both sexes,2007-2008,622.0,50.0,8045.0
-Nunavut,Both sexes,2008-2009,354.0,30.0,8470.0
-Nunavut,Both sexes,2009-2010,444.0,40.0,9010.0
-Nunavut,Both sexes,2010-2011,527.0,50.0,9495.0
-Nunavut,Both sexes,2011-2012,401.0,40.0,9975.0
-Nunavut,Both sexes,2012-2013,486.0,50.0,10285.0
-Nunavut,Both sexes,2013-2014,490.0,50.0,10205.0
-Nunavut,Both sexes,2014-2015,480.0,50.0,10425.0
 Nunavut,Both sexes,2015-2016,560.0,60.0,10715.0
 Nunavut,Both sexes,2016-2017,453.0,50.0,11045.0
 Nunavut,Both sexes,2017-2018,482.0,55.0,11420.0
