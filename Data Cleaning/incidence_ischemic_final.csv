@@ -1,113 +1,113 @@
-Geography,Sex,Fiscal year,"Rate (per 100,000)",Counts,Population
-Canada,Both sexes,2015-2016,590.0,159230.0,26993150.0
-Canada,Both sexes,2016-2017,596.0,163110.0,27368245.0
-Canada,Both sexes,2017-2018,589.0,163290.0,27741415.0
-Canada,Both sexes,2018-2019,576.0,162255.0,28186955.0
-Canada,Both sexes,2019-2020,580.0,166545.0,28704795.0
-Canada,Both sexes,2020-2021*,546.0,157395.0,28844270.0
-Canada,Both sexes,2021-2022*,573.0,164945.0,28803170.0
-Canada,Both sexes,2022-2023*,559.0,165165.0,29524315.0
-Newfoundland and Labrador,Both sexes,2015-2016,609.0,2465.0,404460.0
-Newfoundland and Labrador,Both sexes,2016-2017,643.0,2615.0,406670.0
-Newfoundland and Labrador,Both sexes,2017-2018,597.0,2415.0,404295.0
-Newfoundland and Labrador,Both sexes,2018-2019,680.0,2745.0,403805.0
-Newfoundland and Labrador,Both sexes,2019-2020,634.0,2565.0,404335.0
-Newfoundland and Labrador,Both sexes,2020-2021*,572.0,2310.0,404140.0
-Newfoundland and Labrador,Both sexes,2021-2022*,598.0,2440.0,407985.0
-Newfoundland and Labrador,Both sexes,2022-2023*,532.0,2200.0,413420.0
-Prince Edward Island,Both sexes,2015-2016,487.0,555.0,113860.0
-Prince Edward Island,Both sexes,2016-2017,481.0,555.0,115280.0
-Prince Edward Island,Both sexes,2017-2018,477.0,560.0,117455.0
-Prince Edward Island,Both sexes,2018-2019,478.0,575.0,120215.0
-Prince Edward Island,Both sexes,2019-2020,446.0,555.0,124310.0
-Prince Edward Island,Both sexes,2020-2021*,451.0,570.0,126375.0
-Prince Edward Island,Both sexes,2021-2022*,487.0,630.0,129350.0
-Prince Edward Island,Both sexes,2022-2023*,453.0,605.0,133445.0
-Nova Scotia,Both sexes,2015-2016,568.0,4295.0,756645.0
-Nova Scotia,Both sexes,2016-2017,541.0,4140.0,764990.0
-Nova Scotia,Both sexes,2017-2018,507.0,3930.0,774660.0
-Nova Scotia,Both sexes,2018-2019,477.0,3750.0,786420.0
-Nova Scotia,Both sexes,2019-2020,474.0,3800.0,801715.0
-Nova Scotia,Both sexes,2020-2021*,454.0,3715.0,818970.0
-Nova Scotia,Both sexes,2021-2022*,442.0,3700.0,837765.0
-Nova Scotia,Both sexes,2022-2023*,416.0,3580.0,861445.0
-New Brunswick,Both sexes,2015-2016,793.0,4450.0,561445.0
-New Brunswick,Both sexes,2016-2017,795.0,4505.0,566460.0
-New Brunswick,Both sexes,2017-2018,745.0,4260.0,571830.0
-New Brunswick,Both sexes,2018-2019,717.0,4145.0,578010.0
-New Brunswick,Both sexes,2019-2020,694.0,4060.0,585215.0
-New Brunswick,Both sexes,2020-2021*,607.0,3590.0,591610.0
-New Brunswick,Both sexes,2021-2022*,,0.0,0.0
-New Brunswick,Both sexes,2022-2023*,,0.0,0.0
-Quebec,Both sexes,2015-2016,637.0,37665.0,5916245.0
-Quebec,Both sexes,2016-2017,680.0,40550.0,5959100.0
-Quebec,Both sexes,2017-2018,663.0,39755.0,6000055.0
-Quebec,Both sexes,2018-2019,621.0,37545.0,6042805.0
-Quebec,Both sexes,2019-2020,628.0,38330.0,6102505.0
-Quebec,Both sexes,2020-2021*,615.0,37745.0,6135625.0
-Quebec,Both sexes,2021-2022*,655.0,40565.0,6195870.0
-Quebec,Both sexes,2022-2023*,630.0,39565.0,6277540.0
-Ontario,Both sexes,2015-2016,555.0,58360.0,10511760.0
-Ontario,Both sexes,2016-2017,549.0,58700.0,10685630.0
-Ontario,Both sexes,2017-2018,549.0,59600.0,10853880.0
-Ontario,Both sexes,2018-2019,529.0,58530.0,11065845.0
-Ontario,Both sexes,2019-2020,527.0,59740.0,11333800.0
-Ontario,Both sexes,2020-2021*,475.0,53720.0,11298030.0
-Ontario,Both sexes,2021-2022*,495.0,57150.0,11550905.0
-Ontario,Both sexes,2022-2023*,490.0,58140.0,11866635.0
-Manitoba,Both sexes,2015-2016,539.0,5195.0,963720.0
-Manitoba,Both sexes,2016-2017,477.0,4665.0,978240.0
-Manitoba,Both sexes,2017-2018,450.0,4460.0,991460.0
-Manitoba,Both sexes,2018-2019,431.0,4315.0,1000285.0
-Manitoba,Both sexes,2019-2020,437.0,4380.0,1002115.0
-Manitoba,Both sexes,2020-2021*,433.0,4370.0,1010185.0
-Manitoba,Both sexes,2021-2022*,459.0,4715.0,1026130.0
-Manitoba,Both sexes,2022-2023*,441.0,4670.0,1059055.0
-Saskatchewan,Both sexes,2015-2016,557.0,4585.0,823415.0
-Saskatchewan,Both sexes,2016-2017,542.0,4545.0,838870.0
-Saskatchewan,Both sexes,2017-2018,534.0,4550.0,852440.0
-Saskatchewan,Both sexes,2018-2019,479.0,4160.0,869005.0
-Saskatchewan,Both sexes,2019-2020,469.0,4065.0,867460.0
-Saskatchewan,Both sexes,2020-2021*,424.0,3720.0,876395.0
-Saskatchewan,Both sexes,2021-2022*,441.0,3920.0,888860.0
-Saskatchewan,Both sexes,2022-2023*,450.0,4035.0,896335.0
-Alberta,Both sexes,2015-2016,570.0,18490.0,3243785.0
-Alberta,Both sexes,2016-2017,565.0,18585.0,3289470.0
-Alberta,Both sexes,2017-2018,573.0,19125.0,3336445.0
-Alberta,Both sexes,2018-2019,580.0,19705.0,3400290.0
-Alberta,Both sexes,2019-2020,600.0,20810.0,3467100.0
-Alberta,Both sexes,2020-2021*,543.0,19015.0,3503820.0
-Alberta,Both sexes,2021-2022*,616.0,21995.0,3569720.0
-Alberta,Both sexes,2022-2023*,600.0,22240.0,3704605.0
-British Columbia,Both sexes,2015-2016,633.0,22845.0,3611340.0
-British Columbia,Both sexes,2016-2017,650.0,23895.0,3675450.0
-British Columbia,Both sexes,2017-2018,648.0,24315.0,3749980.0
-British Columbia,Both sexes,2018-2019,691.0,26450.0,3830175.0
-British Columbia,Both sexes,2019-2020,711.0,27895.0,3925230.0
-British Columbia,Both sexes,2020-2021*,711.0,28340.0,3988055.0
-British Columbia,Both sexes,2021-2022*,719.0,29520.0,4104155.0
-British Columbia,Both sexes,2022-2023*,704.0,29935.0,4251260.0
-Yukon Territory,Both sexes,2015-2016,422.0,130.0,30780.0
-Yukon Territory,Both sexes,2016-2017,445.0,140.0,31485.0
-Yukon Territory,Both sexes,2017-2018,325.0,105.0,32270.0
-Yukon Territory,Both sexes,2018-2019,397.0,130.0,32770.0
-Yukon Territory,Both sexes,2019-2020,462.0,155.0,33565.0
-Yukon Territory,Both sexes,2020-2021*,367.0,125.0,34040.0
-Yukon Territory,Both sexes,2021-2022*,301.0,105.0,34835.0
-Yukon Territory,Both sexes,2022-2023*,351.0,125.0,35585.0
-Northwest Territories,Both sexes,2015-2016,424.0,140.0,32985.0
-Northwest Territories,Both sexes,2016-2017,437.0,145.0,33210.0
-Northwest Territories,Both sexes,2017-2018,429.0,140.0,32650.0
-Northwest Territories,Both sexes,2018-2019,440.0,145.0,32950.0
-Northwest Territories,Both sexes,2019-2020,392.0,130.0,33145.0
-Northwest Territories,Both sexes,2020-2021*,352.0,115.0,32675.0
-Northwest Territories,Both sexes,2021-2022*,380.0,125.0,32890.0
-Northwest Territories,Both sexes,2022-2023*,,0.0,0.0
-Nunavut,Both sexes,2015-2016,286.0,65.0,22710.0
-Nunavut,Both sexes,2016-2017,257.0,60.0,23375.0
-Nunavut,Both sexes,2017-2018,292.0,70.0,23995.0
-Nunavut,Both sexes,2018-2019,266.0,65.0,24395.0
-Nunavut,Both sexes,2019-2020,288.0,70.0,24305.0
-Nunavut,Both sexes,2020-2021*,205.0,50.0,24335.0
-Nunavut,Both sexes,2021-2022*,324.0,80.0,24705.0
-Nunavut,Both sexes,2022-2023*,280.0,70.0,24980.0
+Geography,Sex,Fiscal year,Counts
+Canada,Both sexes,2015-2016,159230.0
+Canada,Both sexes,2016-2017,163110.0
+Canada,Both sexes,2017-2018,163290.0
+Canada,Both sexes,2018-2019,162255.0
+Canada,Both sexes,2019-2020,166545.0
+Canada,Both sexes,2020-2021*,157395.0
+Canada,Both sexes,2021-2022*,164945.0
+Canada,Both sexes,2022-2023*,165165.0
+Newfoundland and Labrador,Both sexes,2015-2016,2465.0
+Newfoundland and Labrador,Both sexes,2016-2017,2615.0
+Newfoundland and Labrador,Both sexes,2017-2018,2415.0
+Newfoundland and Labrador,Both sexes,2018-2019,2745.0
+Newfoundland and Labrador,Both sexes,2019-2020,2565.0
+Newfoundland and Labrador,Both sexes,2020-2021*,2310.0
+Newfoundland and Labrador,Both sexes,2021-2022*,2440.0
+Newfoundland and Labrador,Both sexes,2022-2023*,2200.0
+Prince Edward Island,Both sexes,2015-2016,555.0
+Prince Edward Island,Both sexes,2016-2017,555.0
+Prince Edward Island,Both sexes,2017-2018,560.0
+Prince Edward Island,Both sexes,2018-2019,575.0
+Prince Edward Island,Both sexes,2019-2020,555.0
+Prince Edward Island,Both sexes,2020-2021*,570.0
+Prince Edward Island,Both sexes,2021-2022*,630.0
+Prince Edward Island,Both sexes,2022-2023*,605.0
+Nova Scotia,Both sexes,2015-2016,4295.0
+Nova Scotia,Both sexes,2016-2017,4140.0
+Nova Scotia,Both sexes,2017-2018,3930.0
+Nova Scotia,Both sexes,2018-2019,3750.0
+Nova Scotia,Both sexes,2019-2020,3800.0
+Nova Scotia,Both sexes,2020-2021*,3715.0
+Nova Scotia,Both sexes,2021-2022*,3700.0
+Nova Scotia,Both sexes,2022-2023*,3580.0
+New Brunswick,Both sexes,2015-2016,4450.0
+New Brunswick,Both sexes,2016-2017,4505.0
+New Brunswick,Both sexes,2017-2018,4260.0
+New Brunswick,Both sexes,2018-2019,4145.0
+New Brunswick,Both sexes,2019-2020,4060.0
+New Brunswick,Both sexes,2020-2021*,3590.0
+New Brunswick,Both sexes,2021-2022*,0.0
+New Brunswick,Both sexes,2022-2023*,0.0
+Quebec,Both sexes,2015-2016,37665.0
+Quebec,Both sexes,2016-2017,40550.0
+Quebec,Both sexes,2017-2018,39755.0
+Quebec,Both sexes,2018-2019,37545.0
+Quebec,Both sexes,2019-2020,38330.0
+Quebec,Both sexes,2020-2021*,37745.0
+Quebec,Both sexes,2021-2022*,40565.0
+Quebec,Both sexes,2022-2023*,39565.0
+Ontario,Both sexes,2015-2016,58360.0
+Ontario,Both sexes,2016-2017,58700.0
+Ontario,Both sexes,2017-2018,59600.0
+Ontario,Both sexes,2018-2019,58530.0
+Ontario,Both sexes,2019-2020,59740.0
+Ontario,Both sexes,2020-2021*,53720.0
+Ontario,Both sexes,2021-2022*,57150.0
+Ontario,Both sexes,2022-2023*,58140.0
+Manitoba,Both sexes,2015-2016,5195.0
+Manitoba,Both sexes,2016-2017,4665.0
+Manitoba,Both sexes,2017-2018,4460.0
+Manitoba,Both sexes,2018-2019,4315.0
+Manitoba,Both sexes,2019-2020,4380.0
+Manitoba,Both sexes,2020-2021*,4370.0
+Manitoba,Both sexes,2021-2022*,4715.0
+Manitoba,Both sexes,2022-2023*,4670.0
+Saskatchewan,Both sexes,2015-2016,4585.0
+Saskatchewan,Both sexes,2016-2017,4545.0
+Saskatchewan,Both sexes,2017-2018,4550.0
+Saskatchewan,Both sexes,2018-2019,4160.0
+Saskatchewan,Both sexes,2019-2020,4065.0
+Saskatchewan,Both sexes,2020-2021*,3720.0
+Saskatchewan,Both sexes,2021-2022*,3920.0
+Saskatchewan,Both sexes,2022-2023*,4035.0
+Alberta,Both sexes,2015-2016,18490.0
+Alberta,Both sexes,2016-2017,18585.0
+Alberta,Both sexes,2017-2018,19125.0
+Alberta,Both sexes,2018-2019,19705.0
+Alberta,Both sexes,2019-2020,20810.0
+Alberta,Both sexes,2020-2021*,19015.0
+Alberta,Both sexes,2021-2022*,21995.0
+Alberta,Both sexes,2022-2023*,22240.0
+British Columbia,Both sexes,2015-2016,22845.0
+British Columbia,Both sexes,2016-2017,23895.0
+British Columbia,Both sexes,2017-2018,24315.0
+British Columbia,Both sexes,2018-2019,26450.0
+British Columbia,Both sexes,2019-2020,27895.0
+British Columbia,Both sexes,2020-2021*,28340.0
+British Columbia,Both sexes,2021-2022*,29520.0
+British Columbia,Both sexes,2022-2023*,29935.0
+Yukon Territory,Both sexes,2015-2016,130.0
+Yukon Territory,Both sexes,2016-2017,140.0
+Yukon Territory,Both sexes,2017-2018,105.0
+Yukon Territory,Both sexes,2018-2019,130.0
+Yukon Territory,Both sexes,2019-2020,155.0
+Yukon Territory,Both sexes,2020-2021*,125.0
+Yukon Territory,Both sexes,2021-2022*,105.0
+Yukon Territory,Both sexes,2022-2023*,125.0
+Northwest Territories,Both sexes,2015-2016,140.0
+Northwest Territories,Both sexes,2016-2017,145.0
+Northwest Territories,Both sexes,2017-2018,140.0
+Northwest Territories,Both sexes,2018-2019,145.0
+Northwest Territories,Both sexes,2019-2020,130.0
+Northwest Territories,Both sexes,2020-2021*,115.0
+Northwest Territories,Both sexes,2021-2022*,125.0
+Northwest Territories,Both sexes,2022-2023*,0.0
+Nunavut,Both sexes,2015-2016,65.0
+Nunavut,Both sexes,2016-2017,60.0
+Nunavut,Both sexes,2017-2018,70.0
+Nunavut,Both sexes,2018-2019,65.0
+Nunavut,Both sexes,2019-2020,70.0
+Nunavut,Both sexes,2020-2021*,50.0
+Nunavut,Both sexes,2021-2022*,80.0
+Nunavut,Both sexes,2022-2023*,70.0
