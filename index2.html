@@ -3,14 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Map</title>
+    <title>Mortality Cardiac Rate</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
-    <style>
-        #map { height: 600px; }
-        .info.legend { background: white; padding: 10px; }
-    </style>
-</head>
-<body>
     <style>
         /* General body styling */
         body {
@@ -80,16 +74,32 @@
             color: #777;
         }
     </style>
-    <h1>Incidence Cardiac Counts in Canada</h1>
-    <label for="year-dropdown">Select Year:</label>
-    <select id="year-dropdown"></select>
+</head>
+<body>
+    <h1>Mortality Cardiac Count Across Canada</h1> <!-- Title in the center -->
+    
+    <div class="dropdown-container">
+        <label for="year-dropdown">Select Year:</label>
+        <select id="year-dropdown">
+            <!-- Year options will be populated dynamically -->
+        </select>
+    </div>
 
-    <label for="count-dropdown">Select  Type:</label>
-    <select id="count-dropdown"></select>
+    <div class="dropdown-container">
+        <label for="count-dropdown">Select Cardiac Type:</label>
+        <select id="count-dropdown">
+            <!-- Count type options will be populated dynamically -->
+        </select>
+    </div>
 
-    <div id="map"></div>
+    <div id="map"></div> <!-- Map container -->
 
+    <!-- Include Leaflet JavaScript -->
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-    <script type="text/javascript" src="static/js/logic1.js"></script>
+
+    <!--  JavaScript logic for the map (logic2.js) -->
+    <script  type="text/javascript"src="static/js/logic2.js"></script>
+
+    
 </body>
 </html>

@@ -29,7 +29,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
-// Placeholder for data by year, province, and rate type
+// Placeholder for data by year, province, and count type
 let dataByYear = {
     "myocardial": {},
     "ischemics": {},
@@ -38,42 +38,45 @@ let dataByYear = {
 
 // Function to load GeoJSON data
 function loadGeoJSON(data) {
-    const selectedRateType = document.getElementById("rate-dropdown").value; // Get selected rate type
+    const selectedCountType = document.getElementById("count-dropdown").value; // Get selected count type
     const selectedYear = document.getElementById("year-dropdown").value; // Get selected year
 
     const geojson = L.geoJson(data, {
         style: feature => {
             const province = feature.properties.name;
-            const rate = dataByYear[selectedRateType][selectedYear]?.[province] || 0;
-            return { fillColor: getColor(rate), fillOpacity: 0.7, weight: 1, color: 'white' };
+            const count = dataByYear[selectedCountType][selectedYear]?.[province] || 0;
+            return { fillColor: getColor(count), fillOpacity: 0.7, weight: 1, color: 'white' };
         },
         onEachFeature: (feature, layer) => {
             const province = feature.properties.name;
-            const rate = dataByYear[selectedRateType][selectedYear]?.[province] || "N/A";
-            const population = getPopulation(province); // Fetch population for the province
-            layer.bindPopup(`<strong>${province}</strong><br>Rate: ${rate} per 100k<br>Population: ${population}`);
+            const count = dataByYear[selectedCountType][selectedYear]?.[province] || "N/A";
+            layer.bindPopup(`<strong>${province}</strong><br>Count: ${count}`);
+            layer.on('mouseover', function () {
+                this.setStyle({ fillOpacity: 1, weight: 2 });
+            });
+            layer.on('mouseout', function () {
+                this.setStyle({ fillOpacity: 0.7, weight: 1 });
+            });
         }
     }).addTo(map);
 }
 
-
-
 // Fetch data from multiple API endpoints
 async function init() {
     try {
-        // Fetch data from all endpoints and process for each rate type
+        // Fetch data from all endpoints and process for each count type
         const responses = await Promise.all(endpoints.map(url => fetch(url).then(res => res.json())));
-        
-        // Process data by year, province, and rate type (myocardial, ischemic, heart failure)
+
+        // Process data by year, province, and count type (myocardial, ischemic, heart failure)
         responses.forEach((response, index) => {
-            const rateType = index === 0 ? "myocardial" : index === 1 ? "ischemics" : "heart_failure";
+            const countType = index === 0 ? "myocardial" : index === 1 ? "ischemics" : "heart_failure";
             response.forEach(entry => {
                 const year = entry.fiscal_year;
                 const province = entry.geography;
-                const rate = parseFloat(entry.rate_per_100k);
+                const count = parseFloat(entry.counts);
 
-                if (!dataByYear[rateType][year]) dataByYear[rateType][year] = {};
-                dataByYear[rateType][year][province] = rate;
+                if (!dataByYear[countType][year]) dataByYear[countType][year] = {};
+                dataByYear[countType][year][province] = count;
             });
         });
 
@@ -86,14 +89,14 @@ async function init() {
             yearDropdown.appendChild(option);
         });
 
-        // Populate rate dropdown
-        const rateDropdown = document.getElementById("rate-dropdown");
-        const rateTypes = ["myocardial", "ischemics", "heart_failure"];
-        rateTypes.forEach(rateType => {
+        // Populate count dropdown
+        const countDropdown = document.getElementById("count-dropdown");
+        const countTypes = ["myocardial", "ischemics", "heart_failure"];
+        countTypes.forEach(countType => {
             const option = document.createElement("option");
-            option.value = rateType;
-            option.textContent = rateType.charAt(0).toUpperCase() + rateType.slice(1).replace("_", " ");
-            rateDropdown.appendChild(option);
+            option.value = countType;
+            option.textContent = countType.charAt(0).toUpperCase() + countType.slice(1).replace("_", " ");
+            countDropdown.appendChild(option);
         });
 
         // Load GeoJSON map data
@@ -101,9 +104,9 @@ async function init() {
         const geojsonData = await geojsonResponse.json();
         loadGeoJSON(geojsonData);
 
-        // Update map when year or rate type is changed
+        // Update map when year or count type is changed
         yearDropdown.addEventListener("change", () => loadGeoJSON(geojsonData));
-        rateDropdown.addEventListener("change", () => loadGeoJSON(geojsonData));
+        countDropdown.addEventListener("change", () => loadGeoJSON(geojsonData));
 
         // Add the legend to the map
         addLegend();
@@ -112,38 +115,35 @@ async function init() {
     }
 }
 
-// Function to get color based on the rate
-function getColor(rate) {
-    return rate > 5000 ? '#800026' :
-           rate > 4000 ? '#BD0026' :
-           rate > 3000 ? '#E31A1C' :
-           rate > 2000 ? '#FC4E2A' :
-           rate > 1000 ? '#FD8D3C' :
-           rate > 500  ? '#FEB24C' :
-           rate > 0    ? '#FED976' :
-                         '#FFEDA0';
+// Function to get color based on the count
+function getColor(count) {
+    return count > 70000 ? '#800026' :
+           count > 60000 ? '#BD0026' :
+           count > 50000 ? '#E31A1C' :
+           count > 40000 ? '#FC4E2A' :
+           count > 30000 ? '#FD8D3C' :
+           count > 10000 ? '#FEB24C' :
+           count > 0     ? '#FED976' :
+                           '#FFEDA0';
 }
 
 // Add legend to the map
 function addLegend() {
-    const legend = L.control({ position: 'bottomright' });
+    const legend = L.control({ position: 'bottomleft' });
 
     legend.onAdd = function () {
         const div = L.DomUtil.create('div', 'info legend');
-        const grades = [0, 500, 1000, 2000, 3000, 4000, 5000]; // Define your rate ranges
+        const grades = [0, 10000, 30000, 40000, 50000, 60000, 70000];
         const labels = [];
 
-        // Loop through grades and generate labels with a colored square for each
         for (let i = 0; i < grades.length; i++) {
-            // Get the color for each grade using getColor function
-            const color = getColor(grades[i]); // Use grade[i] to get the correct color
+            const color = getColor(grades[i]);
             labels.push(
-                '<i style="background:' + color + '; width: 18px; height: 18px; display: inline-block;"></i> ' +  // Color square
+                '<i style="background:' + color + '; width: 18px; height: 18px; display: inline-block;"></i> ' +
                 grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+')
             );
         }
 
-        // Add the final labels to the legend
         div.innerHTML = labels.join('');
         return div;
     };
