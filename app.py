@@ -7,7 +7,7 @@ from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
 from flask import Flask, jsonify
-
+from asgiref.wsgi import WsgiToAsgi
 
 #################################################
 # Database Setup
@@ -39,6 +39,7 @@ session = Session(bind=engine)
 #################################################
 
 app = Flask(__name__)
+asgi_app = WsgiToAsgi(app)
 
 #################################################
 # Flask Routes
