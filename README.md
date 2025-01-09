@@ -12,7 +12,7 @@ Data about healthcare spending was collected from https://www.cihi.ca/en/nationa
 
 Data about risk factors was collected from https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310009601
 
-PART 2 - DATA CLEANING
+PART 2 - DATA CLEANING - in cleaningandvisualizations.ipynb in CleaningandVisualizations folder
 1) import dependencies: import pandas as pd
 from pathlib import Path
 import matplotlib.pyplot as plt
@@ -57,16 +57,16 @@ The regions on the map are color-coded based on the incidence and mortality rate
 Legend: A legend is included on the side or bottom of the map to explain what each color represents in terms of incidence and mortality rates.
 
 
-3.2 - Incidence and mortality rates
+3.2 - Incidence and mortality rates - in cleaningandvisualizations.ipynb in CleaningandVisualizations folder
 Plotting was done using matplotlib and data was split into "high cases/deaths" = 10,000+ and "low cases/deaths" = <10,000 because there were drastic differences between the provinces due to differences in population. So, the split allowed for better readability. Dataframes were pivoted to allow for the desired analysis - x-axis consists of fiscal years, y-axis consists of counts of rates/deaths per year per province and each line in the line graph represented a province (color coded with a legend). The graphs were saved in the "Output folder.
 
-3.3 - Healthcare Spending
+3.3 - Healthcare Spending - in cleaningandvisualizations.ipynb in CleaningandVisualizations folder
 Plotting was done using matplotlib and data was split into "high spending" = $25,000 million+ and "low cases/deaths" = <$25,000 million because there were drastic differences between the provinces due to differences in population. So, the split allowed for better readability. The dataframe was transformed to allow for the desired analysis - x-axis consists of fiscal years, y-axis consists of amount spent per year per province and each line in the line graph represented a province (color coded with a legend). The code to transform it was the following - melt(id_vars=['Fiscal year'], 
                                                var_name='Geography', 
                                                value_name='spending'). 
 The graphs were saved in the "Output folder.
 
-3.4 - Risk Factors
+3.4 - Risk Factors - in cleaningandvisualizations.ipynb in CleaningandVisualizations folder
 1. Importing Libraries
 
 The script uses the following Python libraries:
@@ -139,7 +139,7 @@ Indicates how well the indicator explains changes in heart failure rates. Higher
 Scatter Plot with Regression Line:
 
 Visual representation of the data and the regression trend.
-3.5 - Linear Regressions, incidence rates and healthcare spending
+3.5 - Linear Regressions, incidence rates and healthcare spending - in cleaningandvisualizations.ipynb in CleaningandVisualizations folder
 
 Created using PyTorch in order to satisfy the requirement of using a python library that was not covered in class. Prior to that, all three incidence datasets were merged into one to facilitate the analysis - done using pd.merge on "Geography". Then, this dataset was merged with the transformed spending one.
 Steps are as follows: normalize the data using StandardScaler() --> fit and transform the data using scaler.fit_transform() and passing the columns we normalized previously --> converting this data into PyTorch tensors using torch.tensor, defining x and y --> define and create the linear regression model using class --> define Loss Function using nn.MSELoss() and Optimizer using optim.Adam(model.parameters(), lr=0.01) --> train the model using 1000 epochs --> evaluate the model with predictions --> de-normalize the data for easier plotting --> plot de-normalized data using plt.scatter() and plt.plot() to make the graph. The resulting graphs for each disease can be found in the "Output" folder.
