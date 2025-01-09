@@ -69,6 +69,7 @@ The graphs were saved in the "Output folder.
 3.4 - Risk Factors
 
 3.5 - Linear Regressions, incidence rates and healthcare spending
+
 Created using PyTorch in order to satisfy the requirement of using a python library that was not covered in class. Prior to that, all three incidence datasets were merged into one to facilitate the analysis - done using pd.merge on "Geography". Then, this dataset was merged with the transformed spending one.
 Steps are as follows: normalize the data using StandardScaler() --> fit and transform the data using scaler.fit_transform() and passing the columns we normalized previously --> converting this data into PyTorch tensors using torch.tensor, defining x and y --> define and create the linear regression model using class --> define Loss Function using nn.MSELoss() and Optimizer using optim.Adam(model.parameters(), lr=0.01) --> train the model using 1000 epochs --> evaluate the model with predictions --> de-normalize the data for easier plotting --> plot de-normalized data using plt.scatter() and plt.plot() to make the graph. The resulting graphs for each disease can be found in the "Output" folder.
 
