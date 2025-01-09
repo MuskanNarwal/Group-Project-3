@@ -67,7 +67,78 @@ Plotting was done using matplotlib and data was split into "high spending" = $25
 The graphs were saved in the "Output folder.
 
 3.4 - Risk Factors
+1. Importing Libraries
 
+The script uses the following Python libraries:
+
+pandas: For data manipulation.
+numpy: For numerical operations.
+matplotlib: For data visualization.
+sklearn: For performing linear regression and evaluating the model.( the new library used)
+
+2. Loading and Reshaping Data
+
+Load the datasets using pandas.read_csv.
+
+Reshape the risk indicators dataset using pd.melt to align risk values with their corresponding regions (Geography).
+
+Clean and convert data to numeric format to ensure compatibility with regression analysis.
+
+3. Filtering for Specific Indicators
+
+Select a specific health indicator (e.g., BMI or smoking rates) from the reshaped risk dataset.
+
+Filter the dataset to include only relevant data for the selected indicator.
+
+4. Merging Datasets
+
+Merge the filtered risk indicators dataset with the incidence rates dataset on the Geography column.
+
+This ensures both datasets are aligned for analysis.
+
+5. Performing Linear Regression
+
+Extract the independent variable (indicator values) and dependent variable (heart failure rates).
+
+Use LinearRegression from sklearn to fit a regression model.
+
+Calculate the slope (coefficient) and intercept of the regression line.
+
+Predict heart failure rates based on the indicator values.
+
+Calculate R-squared to measure the model’s explanatory power.
+
+6. Visualizing the Results
+
+Create a scatter plot to display actual data points (indicator values vs. heart failure rates).
+
+Add the regression line to visualize the trend.
+
+Customize the plot with titles, labels, and legends.
+
+7. Displaying the Regression Equation
+
+Print the regression equation in the format:
+
+Where:
+
+: Slope of the line (rate of change of heart failure rates with respect to the indicator).
+
+: Intercept (heart failure rate when the indicator value is zero).
+
+Key Outputs
+
+Regression Equation:
+
+A mathematical representation of the relationship between the indicator and heart failure rates.
+
+R-squared Value:
+
+Indicates how well the indicator explains changes in heart failure rates. Higher values (close to 1) indicate a stronger relationship.
+
+Scatter Plot with Regression Line:
+
+Visual representation of the data and the regression trend.
 3.5 - Linear Regressions, incidence rates and healthcare spending
 
 Created using PyTorch in order to satisfy the requirement of using a python library that was not covered in class. Prior to that, all three incidence datasets were merged into one to facilitate the analysis - done using pd.merge on "Geography". Then, this dataset was merged with the transformed spending one.
