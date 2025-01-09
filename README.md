@@ -75,5 +75,5 @@ Steps are as follows: normalize the data using StandardScaler() --> fit and tran
 Analysis - All three diseases have a correlation value of about 0.98, suggesting an incredibly strong correlation between healthcare spending and incidence rates. That said, while this appears logical, the fact that it is a positive correlation is not logical. Thus, it is difficult to draw a firm conclusion on the impact that healthcare spending will have on incidence rates.
 
 
-![](Simple org chart - Page 2 (1).png)
+
 
