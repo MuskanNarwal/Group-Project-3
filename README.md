@@ -37,6 +37,25 @@ from sklearn.preprocessing import StandardScaler
 PART 3 - VISUALIZATIONS
 
 3.1 - Maps
+Interactive maps visualizing incidence and mortality counts categorized by year and type of cardiac disease.
+The maps are designed to allow users to explore geographical health data interactively.
+
+Interactive Maps with Leaflet.js
+The maps created in this project are built using Leaflet.js, a lightweight JavaScript library for creating interactive maps. This technology makes the maps highly interactive and user-friendly, allowing for a dynamic and engaging exploration of the data.
+
+Key Features of the Interactive Maps:
+
+
+Pop-ups: When a user clicks on a specific region (e.g., acity), a pop-up will appear displaying detailed information about the incidence and mortality rates for that region.
+Data Points: The pop-up might include additional information, such as the exact numbers for cases and deaths .
+This interaction enables users to drill down into the data for individual regions and understand the context in which the health data exists.
+
+Color-Coding Based on Health Data:
+
+The regions on the map are color-coded based on the incidence and mortality rates (e.g., light green for low rates and dark red for high rates). This visual representation makes it easy to see trends and outliers at a glance.
+
+Legend: A legend is included on the side or bottom of the map to explain what each color represents in terms of incidence and mortality rates.
+
 
 3.2 - Incidence and mortality rates
 Plotting was done using matplotlib and data was split into "high cases/deaths" = 10,000+ and "low cases/deaths" = <10,000 because there were drastic differences between the provinces due to differences in population. So, the split allowed for better readability. Dataframes were pivoted to allow for the desired analysis - x-axis consists of fiscal years, y-axis consists of counts of rates/deaths per year per province and each line in the line graph represented a province (color coded with a legend). The graphs were saved in the "Output folder.
@@ -54,3 +73,5 @@ Created using PyTorch in order to satisfy the requirement of using a python libr
 Steps are as follows: normalize the data using StandardScaler() --> fit and transform the data using scaler.fit_transform() and passing the columns we normalized previously --> converting this data into PyTorch tensors using torch.tensor, defining x and y --> define and create the linear regression model using class --> define Loss Function using nn.MSELoss() and Optimizer using optim.Adam(model.parameters(), lr=0.01) --> train the model using 1000 epochs --> evaluate the model with predictions --> de-normalize the data for easier plotting --> plot de-normalized data using plt.scatter() and plt.plot() to make the graph. The resulting graphs for each disease can be found in the "Output" folder.
 
 Analysis - All three diseases have a correlation value of about 0.98, suggesting an incredibly strong correlation between healthcare spending and incidence rates. That said, while this appears logical, the fact that it is a positive correlation is not logical. Thus, it is difficult to draw a firm conclusion on the impact that healthcare spending will have on incidence rates.
+
+
