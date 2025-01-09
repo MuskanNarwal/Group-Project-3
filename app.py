@@ -1,50 +1,42 @@
-# Import the dependencies.
+# Import the dependencies
 import numpy as np
 import pandas as pd
 import datetime as dt
 import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
-from sqlalchemy import create_engine, func
+from sqlalchemy import create_engine, Table, MetaData
 from flask import Flask, jsonify
-
+from flask_cors import CORS
 
 #################################################
 # Database Setup
 #################################################
 
+# Create engine
 engine = create_engine("postgresql://postgres:postgres@localhost:5432/Cardiac_final_Db")
 
-# reflect an existing database into a new model
+# Use AutomapBase instead of declarative_base
 Base = automap_base()
-Base.prepare(autoload_with=engine)
-print(Base.classes.keys())
-# reflect the tables
-Base.prepare(engine, reflect=True)
 
-# Save references to each table
+# Manually reflect tables using the MetaData object
+metadata = MetaData()
+metadata.reflect(bind=engine)  # Explicitly bind the engine to metadata
 
-incidence_rate_myocardial=Base.classes.incidence_rate_myocardial
-incidence_rates_ischemics=Base.classes.incidence_rates_ischemics
-incidence_rates_heart_failure=Base.classes.incidence_rates_heart_failure
-mortality_rates_heart_failure=Base.classes.mortality_rates_heart_failure
-mortality_rates_ischemics=Base.classes.mortality_rates_ischemics
-mortality_rate_myocardial=Base.classes.mortality_rate_myocardial
+# Map each table from the database schema to an SQLAlchemy class
+incidence_rate_myocardial = Table('incidence_rate_myocardial', metadata, autoload_with=engine)
+incidence_rates_heart_failure = Table('incidence_rates_heart_failure', metadata, autoload_with=engine)
+incidence_rates_ischemics = Table('incidence_rates_ischemics', metadata, autoload_with=engine)
+mortality_rate_myocardial = Table('mortality_rate_myocardial', metadata, autoload_with=engine)
+mortality_rates_heart_failure = Table('mortality_rates_heart_failure', metadata, autoload_with=engine)
+mortality_rates_ischemics = Table('mortality_rates_ischemics', metadata, autoload_with=engine)
 
-# Create our session (link) from Python to the DB
-session = Session(bind=engine)
-
-#################################################
 # Flask Setup
-#################################################
-
 app = Flask(__name__)
-
+CORS(app)
 
 #################################################
 # Flask Routes
-
-
 @app.route('/')
 def home():
     """List all available routes."""
@@ -85,19 +77,18 @@ def get_mortality_rates_ischemics():
 def get_mortality_rate_myocardial():
     return fetch_table_data(mortality_rate_myocardial)
 
-def fetch_table_data(table_class):
+def fetch_table_data(table):
     """Fetch all data from a table and return as JSON."""
-    session = Session(bind=engine)
-    try:
-        results = session.query(table_class).all()
-        data = [
-            {column.name: getattr(row, column.name) for column in table_class.__table__.columns}
-            for row in results
-        ]
-        return jsonify(data)
-    finally:
-        session.close()
-
+    with Session(bind=engine) as session:
+        try:
+            results = session.query(table).all()
+            data = [
+                {column.name: getattr(row, column.name) for column in table.columns}
+                for row in results
+            ]
+            return jsonify(data)
+        except Exception as e:
+            return jsonify({"error": str(e)}), 500
 
 if __name__ == '__main__':
     app.run(debug=True)
